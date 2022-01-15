@@ -1,5 +1,5 @@
 import random
-ans = random.sample(range(1, 10), 4)
+ans = random.sample(range(1, 10), 4) # 產生四個0~9不重複數字
 count = 0
 while count < 8:
     guess = list(map(int, input('請輸入4個1~9的不同數字並以空白隔開: ').split()))
